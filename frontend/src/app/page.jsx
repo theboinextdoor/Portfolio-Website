@@ -14,7 +14,7 @@ export default function Home() {
           <p className="mb-8 leading-relaxed">Hello, I'm Faraaz Ashraf , an accomplished MERN stack developer with a passion for crafting cutting-edge web applications. With hands-on experience in a variety of modern technologies, including TypeScript, Next.js, Sanity.io, Appwrite, and more, I bring a diverse skill set to every project I undertake.</p>
           <div className="flex justify-center">
             <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-              <Link href='/tutorials'>Tutorials</Link>
+              <Link href='/tutorials'>Projects</Link>
             </button>
             <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
               <Link href='/blog'>Blog</Link>
@@ -32,7 +32,7 @@ export default function Home() {
         <div className="container px-5 py-4 mx-auto " bis-skin-checked={1}>
           <div className="flex flex-col items-center">
             <h2 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-center text-gray-900 ">Some of my Hardworks</h2>
-            <div class="h-1 w-64 bg-indigo-500 rounded"></div>
+            <div className="h-1 w-64 bg-indigo-500 rounded"></div>
           </div>
           <div className="flex flex-wrap -m-4 mt-10" bis-skin-checked={1}>
             <Cards />
